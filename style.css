@@ -305,79 +305,101 @@ section h2{
 
 
 /* ==========================================
-   CONTACTO CENTRADO
+   CONTACTO
 ========================================== */
 
 
-/* SECCIÓN CONTACTO CENTRADA EN TODA LA PÁGINA */
-
 #contacto {
-    min-height: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
 
+    min-height:500px;
 
-/* Título Contacto */
+    text-align:center;
 
-#contacto h2 {
-    text-align: center;
-}
-
-
-/* Tarjeta de contacto */
-
-.contacto-card {
-
-    width: 350px;
-    background: #ffffff;
-
-    padding: 40px;
-
-    border-radius: 15px;
-
-    text-align: center;
-
-    margin: 20px auto;
-
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    padding:70px 10%;
 
 }
 
 
-/* CONTENEDOR DE CONTACTOS EN FILA */
 
-.contactos-container {
+#contacto h2{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align:center;
 
-    gap: 40px;
+    color:#123d6b;
 
-    flex-wrap: wrap;
+    font-size:32px;
+
+    margin-bottom:45px;
 
 }
 
 
-/* TARJETAS */
 
-.contacto-card {
+/* CONTENEDOR DE TARJETAS */
 
-    width: 350px;
+.contactos-container{
 
-    background: white;
+    display:flex;
 
-    padding: 35px;
+    justify-content:center;
 
-    border-radius: 15px;
+    align-items:center;
 
-    text-align: center;
+    gap:40px;
 
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    flex-wrap:wrap;
+
+}
+
+
+
+/* TARJETA CONTACTO */
+
+.contacto-card{
+
+    width:350px;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+}
+
+
+
+.contacto-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.contacto-card h3{
+
+    color:#123d6b;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.contacto-card p{
+
+    margin-bottom:15px;
+
+    font-size:17px;
 
 }
 
