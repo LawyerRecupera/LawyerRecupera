@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI', Arial, sans-serif;
+    background:#f4f6f8;
+    color:#222;
+}
+
+
+header{
+    background:linear-gradient(
+        135deg,
+        #071d35,
+        #123d6b
+    );
+    color:white;
+    padding:70px 20px;
+    text-align:center;
+}
+
+
+header h1{
+    font-size:42px;
+    letter-spacing:1px;
+}
+
+
+header p{
+    margin-top:15px;
+    font-size:20px;
+}
+
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:#c8a034;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+
+section{
+    padding:60px 10%;
+}
+
+
+section h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#123d6b;
+}
+
+
+.servicios{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+
+.card{
+
+    background:white;
+    width:300px;
+    padding:35px;
+    border-radius:15px;
+    text-align:center;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.1);
+
+}
+
+
+.card h3{
+    color:#123d6b;
+    margin-bottom:15px;
+}
+
+
+footer{
+
+    background:#071d35;
+    color:white;
+    padding:30px;
+    text-align:center;
+
+}
+
+
+
+@media(max-width:700px){
+
+header h1{
+    font-size:30px;
+}
+
+section{
+    padding:40px 20px;
+}
+
+}
