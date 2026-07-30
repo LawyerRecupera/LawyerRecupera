@@ -1,148 +1,489 @@
+/* =====================================
+   CONFIGURACIÓN GENERAL
+===================================== */
+
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
+
+html{
+    scroll-behavior:smooth;
+}
+
+
 body{
+
     font-family:'Segoe UI', Arial, sans-serif;
     background:#f4f6f8;
     color:#222;
+    line-height:1.6;
+
 }
+
+
+
+/* =====================================
+   MENU SUPERIOR
+===================================== */
+
+
+nav{
+
+    background:#071d35;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+}
+
+
+
+.logo-nav{
+
+    font-size:22px;
+    font-weight:bold;
+
+}
+
+
+
+.menu a{
+
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:500;
+
+}
+
+
+.menu a:hover{
+
+    color:#c8a034;
+
+}
+
+
+
+
+/* =====================================
+   PORTADA PRINCIPAL
+===================================== */
 
 
 header{
-    background:linear-gradient(
-        135deg,
-        #071d35,
-        #123d6b
+
+    background:
+    linear-gradient(
+    135deg,
+    rgba(7,29,53,.95),
+    rgba(18,61,107,.95)
     );
+
     color:white;
-    padding:70px 20px;
     text-align:center;
+    padding:90px 20px;
+
 }
+
+
+
+.logo{
+
+    font-size:80px;
+    margin-bottom:20px;
+
+}
+
 
 
 header h1{
-    font-size:42px;
+
+    font-size:45px;
     letter-spacing:1px;
+
 }
+
+
+
+header h2{
+
+    font-size:28px;
+    font-weight:normal;
+    margin-top:15px;
+    color:#d8b24c;
+
+}
+
 
 
 header p{
-    margin-top:15px;
+
+    max-width:750px;
+    margin:25px auto;
     font-size:20px;
+
 }
+
+
+
+
+
+/* =====================================
+   BOTONES
+===================================== */
 
 
 .btn{
+
     display:inline-block;
-    margin-top:30px;
-    padding:15px 35px;
     background:#c8a034;
     color:white;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
     text-decoration:none;
-    border-radius:30px;
+
     font-weight:bold;
+
+    transition:.3s;
+
 }
+
+
+
+.btn:hover{
+
+    background:#a47d12;
+
+    transform:translateY(-3px);
+
+}
+
+
+
+
+
+/* =====================================
+   SECCIONES
+===================================== */
 
 
 section{
-    padding:60px 10%;
+
+    padding:70px 10%;
+
 }
+
 
 
 section h2{
+
     text-align:center;
-    margin-bottom:40px;
+
     color:#123d6b;
+
+    font-size:32px;
+
+    margin-bottom:45px;
+
 }
+
+
+
+.texto{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+    font-size:18px;
+
+}
+
+
+
+
+
+/* =====================================
+   TARJETAS DE SERVICIOS
+===================================== */
 
 
 .servicios{
+
     display:flex;
+
     justify-content:center;
+
     flex-wrap:wrap;
+
     gap:30px;
+
 }
+
 
 
 .card{
 
     background:white;
+
     width:300px;
-    padding:35px;
-    border-radius:15px;
+
+    padding:35px 25px;
+
     text-align:center;
 
+    border-radius:15px;
+
     box-shadow:
-    0 10px 25px rgba(0,0,0,.1);
+    0 10px 25px rgba(0,0,0,.10);
+
+    transition:.3s;
 
 }
+
+
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
 
 
 .card h3{
+
     color:#123d6b;
+
     margin-bottom:15px;
+
+    font-size:21px;
+
 }
+
+
+
+
+/* =====================================
+   CONTACTO
+===================================== */
+
+
+.contacto-card{
+
+    background:white;
+
+    max-width:450px;
+
+    margin:auto;
+
+    padding:40px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.15);
+
+}
+
+
+
+.contacto-card h3{
+
+    color:#123d6b;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+/* =====================================
+   FOOTER
+===================================== */
 
 
 footer{
 
     background:#071d35;
+
     color:white;
-    padding:30px;
+
     text-align:center;
 
+    padding:40px 20px;
+
 }
 
 
 
-@media(max-width:700px){
+footer h3{
+
+    color:#d8b24c;
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+
+/* =====================================
+   WHATSAPP FLOTANTE
+===================================== */
+
+
+.whatsapp{
+
+    position:fixed;
+
+    bottom:25px;
+
+    right:25px;
+
+    background:#25D366;
+
+    color:white;
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:32px;
+
+    text-decoration:none;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,.3);
+
+    z-index:999;
+
+}
+
+
+
+.whatsapp:hover{
+
+    transform:scale(1.1);
+
+}
+
+
+
+
+
+/* =====================================
+   ADAPTACIÓN PARA CELULARES
+===================================== */
+
+
+@media(max-width:800px){
+
+
+nav{
+
+    flex-direction:column;
+
+}
+
+
+.menu{
+
+    margin-top:15px;
+
+}
+
+
+.menu a{
+
+    margin:0 10px;
+
+}
+
+
+
+header{
+
+    padding:60px 20px;
+
+}
+
+
 
 header h1{
-    font-size:30px;
-}
 
-section{
-    padding:40px 20px;
-}
-
-    .logo{
-
-font-size:70px;
-margin-bottom:20px;
+    font-size:32px;
 
 }
+
 
 
 header h2{
 
-font-size:25px;
-font-weight:normal;
-margin-top:10px;
+    font-size:22px;
 
 }
+
 
 
 header p{
 
-max-width:700px;
-margin:25px auto;
-line-height:1.6;
+    font-size:17px;
 
 }
+
+
+
+section{
+
+    padding:45px 20px;
+
+}
+
+
+.servicios{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
 .card{
 
-transition:0.3s;
+    width:100%;
 
 }
 
 
-.card:hover{
 
-transform:translateY(-8px);
-
-}
-    
 }
