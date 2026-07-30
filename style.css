@@ -229,16 +229,14 @@ section h2{
 
 
 
-.texto{
+/* SOBRE NOSOTROS CENTRADO */
 
-    max-width:900px;
-
-    margin:auto;
-
-    text-align:center;
-
-    font-size:18px;
-
+.texto {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 18px;
 }
 
 
