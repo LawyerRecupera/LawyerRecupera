@@ -109,3 +109,27 @@ section{
 }
 
 }
+.logo{
+
+font-size:70px;
+margin-bottom:20px;
+
+}
+
+
+header h2{
+
+font-size:25px;
+font-weight:normal;
+margin-top:10px;
+
+}
+
+
+header p{
+
+max-width:700px;
+margin:25px auto;
+line-height:1.6;
+
+}
