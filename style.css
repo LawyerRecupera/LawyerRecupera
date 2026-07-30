@@ -311,62 +311,43 @@ section h2{
 ========================================== */
 
 
-#contacto{
+/* SECCIÓN CONTACTO CENTRADA EN TODA LA PÁGINA */
 
-    display:flex;
-
-    flex-direction:column;
-
-    align-items:center;
-
-    justify-content:center;
-
-    text-align:center;
-
+#contacto {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 
+/* Título Contacto */
 
-.contacto-card{
-
-    background:white;
-
-    width:100%;
-
-    max-width:450px;
-
-    padding:45px 35px;
-
-    border-radius:20px;
-
-    box-shadow:
-
-    0 10px 30px rgba(0,0,0,.15);
-
+#contacto h2 {
+    text-align: center;
 }
 
 
+/* Tarjeta de contacto */
 
-.contacto-card h3{
+.contacto-card {
 
-    color:#123d6b;
+    width: 350px;
+    background: #ffffff;
 
-    font-size:25px;
+    padding: 40px;
 
-    margin-bottom:20px;
+    border-radius: 15px;
 
-}
+    text-align: center;
 
+    margin: 20px auto;
 
-
-.contacto-card p{
-
-    margin:12px 0;
-
-    font-size:17px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 
 }
-
 
 
 
