@@ -1,8 +1,8 @@
+```css
 /* ==========================================
-   GRUPO JURÍDICO RECUPERA
-   Marcalla Jácome Abogados
+GRUPO JURÍDICO RECUPERA
+Marcalla Jácome Abogados
 ========================================== */
-
 
 /* CONFIGURACIÓN GENERAL */
 
@@ -12,573 +12,337 @@
     box-sizing:border-box;
 }
 
-
 html{
     scroll-behavior:smooth;
 }
 
-
 body{
-
     font-family:'Segoe UI', Arial, sans-serif;
     background:#f5f7fa;
     color:#222;
     line-height:1.6;
-
 }
 
 
-
 /* ==========================================
-   MENU
+MENU
 ========================================== */
-
 
 nav{
-
-    background:#071d35;
-
+    background:#4A0E1A;
     color:white;
-
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
     padding:18px 8%;
-
     position:sticky;
-
     top:0;
-
     z-index:1000;
-
 }
-
 
 .logo-nav{
-
     font-size:22px;
-
     font-weight:bold;
-
 }
-
-
 
 .menu a{
-
     color:white;
-
     text-decoration:none;
-
     margin-left:25px;
-
     font-weight:600;
-
     transition:.3s;
-
 }
-
 
 .menu a:hover{
-
     color:#d8b24c;
-
 }
-
 
 
 /* ==========================================
-   PORTADA
+PORTADA
 ========================================== */
 
-
 header{
-
     background:
-
     linear-gradient(
-    135deg,
-    #071d35,
-    #123d6b
+        135deg,
+        #4A0E1A,
+        #6B1E2E
     );
 
     color:white;
-
     text-align:center;
-
     padding:90px 20px;
-
 }
-
-
 
 .logo{
-
     font-size:85px;
-
     margin-bottom:20px;
-
 }
-
-
 
 header h1{
-
     font-size:45px;
-
     letter-spacing:1px;
-
 }
-
-
 
 header h2{
-
     color:#d8b24c;
-
     font-size:28px;
-
     font-weight:normal;
-
     margin-top:15px;
-
 }
-
-
 
 header p{
-
     max-width:750px;
-
     margin:25px auto;
-
     font-size:20px;
-
 }
 
 
-
-
 /* ==========================================
-   BOTONES
+BOTONES
 ========================================== */
-
 
 .btn{
-
     display:inline-block;
-
     background:#c8a034;
-
     color:white;
-
     padding:15px 35px;
-
     min-width:220px;
-
     text-align:center;
-
     border-radius:40px;
-
     text-decoration:none;
-
     font-weight:bold;
-
     transition:.3s;
-
 }
-
 
 .btn:hover{
-
     background:#a47d12;
-
     transform:translateY(-3px);
-
 }
 
 
-
 /* ==========================================
-   SECCIONES
+SECCIONES
 ========================================== */
-
 
 section{
-
     padding:70px 10%;
-
 }
-
-
 
 section h2{
-
     text-align:center;
-
-    color:#123d6b;
-
+    color:#6B1E2E;
     font-size:32px;
-
     margin-bottom:45px;
-
 }
-
-
-
-/* SOBRE NOSOTROS CENTRADO */
-
-.texto {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 1.8;
-    font-size: 18px;
-}
-
 
 
 /* ==========================================
-   TARJETAS
+SOBRE NOSOTROS CENTRADO
 ========================================== */
 
-
-.servicios{
-
-    display:flex;
-
-    justify-content:center;
-
-    flex-wrap:wrap;
-
-    gap:30px;
-
+.texto{
+    max-width:900px;
+    margin:0 auto;
+    text-align:center;
+    line-height:1.8;
+    font-size:18px;
 }
 
 
+/* ==========================================
+TARJETAS
+========================================== */
+
+.servicios{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
 
 .card{
-
     background:white;
-
     width:300px;
-
     padding:35px 25px;
-
     text-align:center;
-
     border-radius:18px;
 
     box-shadow:
-
     0 10px 25px rgba(0,0,0,.12);
 
     transition:.3s;
-
 }
-
-
 
 .card:hover{
-
     transform:translateY(-10px);
-
 }
-
-
 
 .card h3{
-
-    color:#123d6b;
-
+    color:#6B1E2E;
     margin-bottom:15px;
-
     font-size:21px;
-
 }
-
-
-
 
 
 /* ==========================================
-   CONTACTO
+CONTACTO
 ========================================== */
 
-
-#contacto {
-
+#contacto{
     min-height:500px;
-
     text-align:center;
-
     padding:70px 10%;
-
 }
-
-
 
 #contacto h2{
-
     text-align:center;
-
-    color:#123d6b;
-
+    color:#6B1E2E;
     font-size:32px;
-
     margin-bottom:45px;
-
 }
-
 
 
 /* CONTENEDOR DE TARJETAS */
 
 .contactos-container{
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     gap:40px;
-
     flex-wrap:wrap;
-
 }
-
 
 
 /* TARJETA CONTACTO */
 
 .contacto-card{
-
     width:350px;
-
     background:white;
-
     padding:35px;
-
     border-radius:18px;
-
     text-align:center;
 
     box-shadow:
-
     0 10px 25px rgba(0,0,0,.12);
 
     transition:.3s;
-
 }
-
-
 
 .contacto-card:hover{
-
     transform:translateY(-8px);
-
 }
-
-
 
 .contacto-card h3{
-
-    color:#123d6b;
-
+    color:#6B1E2E;
     margin-bottom:15px;
-
 }
-
-
 
 .contacto-card p{
-
     margin-bottom:15px;
-
     font-size:17px;
-
 }
 
-/* ==========================================
-   FOOTER
-========================================== */
 
+/* ==========================================
+FOOTER
+========================================== */
 
 footer{
-
-    background:#071d35;
-
+    background:#4A0E1A;
     color:white;
-
     text-align:center;
-
     padding:40px 20px;
-
 }
-
-
 
 footer h3{
-
     color:#d8b24c;
-
     margin-bottom:15px;
-
 }
-
-
 
 
 /* ==========================================
-   WHATSAPP FLOTANTE
+WHATSAPP FLOTANTE
 ========================================== */
 
-
 .whatsapp{
-
     position:fixed;
-
     bottom:25px;
-
     right:25px;
-
     background:#25D366;
-
     color:white;
-
     width:65px;
-
     height:65px;
-
     border-radius:50%;
-
     display:flex;
-
     align-items:center;
-
     justify-content:center;
-
     font-size:35px;
-
     text-decoration:none;
 
     box-shadow:
-
     0 5px 20px rgba(0,0,0,.3);
 
     z-index:2000;
-
 }
-
 
 .whatsapp:hover{
-
     transform:scale(1.1);
-
 }
-
-
 
 
 /* ==========================================
-   CELULARES
+CELULARES
 ========================================== */
-
 
 @media(max-width:800px){
 
+    nav{
+        flex-direction:column;
+    }
 
-nav{
+    .menu{
+        margin-top:15px;
+    }
 
-    flex-direction:column;
+    .menu a{
+        margin:0 8px;
+        font-size:14px;
+    }
 
-}
+    header{
+        padding:60px 20px;
+    }
 
+    header h1{
+        font-size:32px;
+    }
 
-.menu{
+    header h2{
+        font-size:22px;
+    }
 
-    margin-top:15px;
+    header p{
+        font-size:17px;
+    }
 
-}
+    section{
+        padding:50px 20px;
+    }
 
+    .servicios{
+        flex-direction:column;
+        align-items:center;
+    }
 
-.menu a{
+    .card{
+        width:100%;
+    }
 
-    margin:0 8px;
-
-    font-size:14px;
-
-}
-
-
-
-header{
-
-    padding:60px 20px;
-
-}
-
-
-
-header h1{
-
-    font-size:32px;
-
-}
-
-
-
-header h2{
-
-    font-size:22px;
-
-}
-
-
-
-header p{
-
-    font-size:17px;
+    .logo{
+        font-size:65px;
+    }
 
 }
-
-
-
-section{
-
-    padding:50px 20px;
-
-}
-
-
-
-.servicios{
-
-    flex-direction:column;
-
-    align-items:center;
-
-}
-
-
-
-.card{
-
-    width:100%;
-
-}
-
-
-
-.logo{
-
-    font-size:65px;
-
-}
-
-
-}
+```
