@@ -1,10 +1,13 @@
 ```css
 /* ==========================================
-GRUPO JURÍDICO RECUPERA
-Marcalla Jácome Abogados
-========================================== */
+   GRUPO JURÍDICO RECUPERA
+   Marcalla Jácome Abogados
+   ========================================== */
 
-/* CONFIGURACIÓN GENERAL */
+
+/* ==========================================
+   CONFIGURACIÓN GENERAL
+   ========================================== */
 
 *{
     margin:0;
@@ -25,54 +28,67 @@ body{
 
 
 /* ==========================================
-MENU
-========================================== */
+   MENU DE NAVEGACIÓN
+   ========================================== */
 
 nav{
-    background:#4A0E1A;
+    background:#2B0610;
     color:white;
+
     display:flex;
     justify-content:space-between;
     align-items:center;
+
     padding:18px 8%;
+
     position:sticky;
     top:0;
     z-index:1000;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.25);
 }
 
 .logo-nav{
     font-size:22px;
     font-weight:bold;
+    color:white;
 }
 
 .menu a{
     color:white;
     text-decoration:none;
+
     margin-left:25px;
+
     font-weight:600;
+
     transition:.3s;
 }
 
 .menu a:hover{
-    color:#d8b24c;
+    color:#D8B24C;
 }
 
 
 /* ==========================================
-PORTADA
-========================================== */
+   PORTADA
+   ========================================== */
 
 header{
     background:
-    linear-gradient(
-        135deg,
-        #4A0E1A,
-        #6B1E2E
-    );
+        linear-gradient(
+            135deg,
+            #2B0610,
+            #430A18
+        );
 
     color:white;
+
     text-align:center;
+
     padding:90px 20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
 }
 
 .logo{
@@ -86,45 +102,66 @@ header h1{
 }
 
 header h2{
-    color:#d8b24c;
+    color:#D8B24C;
+
     font-size:28px;
+
     font-weight:normal;
+
     margin-top:15px;
 }
 
 header p{
     max-width:750px;
+
     margin:25px auto;
+
     font-size:20px;
 }
 
 
 /* ==========================================
-BOTONES
-========================================== */
+   BOTONES
+   ========================================== */
 
 .btn{
     display:inline-block;
-    background:#c8a034;
-    color:white;
+
+    background:#D8B24C;
+
+    color:#2B0610;
+
     padding:15px 35px;
+
     min-width:220px;
+
     text-align:center;
+
     border-radius:40px;
+
     text-decoration:none;
+
     font-weight:bold;
+
     transition:.3s;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
 }
 
 .btn:hover{
-    background:#a47d12;
+    background:#B89432;
+
+    color:white;
+
     transform:translateY(-3px);
+
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
 }
 
 
 /* ==========================================
-SECCIONES
-========================================== */
+   SECCIONES
+   ========================================== */
 
 section{
     padding:70px 10%;
@@ -132,159 +169,242 @@ section{
 
 section h2{
     text-align:center;
-    color:#6B1E2E;
+
+    color:#430A18;
+
     font-size:32px;
+
     margin-bottom:45px;
 }
 
 
 /* ==========================================
-SOBRE NOSOTROS CENTRADO
-========================================== */
+   SOBRE NOSOTROS
+   ========================================== */
 
 .texto{
     max-width:900px;
+
     margin:0 auto;
+
     text-align:center;
+
     line-height:1.8;
+
     font-size:18px;
 }
 
 
 /* ==========================================
-TARJETAS
-========================================== */
+   TARJETAS DE SERVICIOS
+   ========================================== */
 
 .servicios{
     display:flex;
+
     justify-content:center;
+
     flex-wrap:wrap;
+
     gap:30px;
 }
 
 .card{
     background:white;
+
     width:300px;
+
     padding:35px 25px;
+
     text-align:center;
+
     border-radius:18px;
 
     box-shadow:
-    0 10px 25px rgba(0,0,0,.12);
+        0 10px 25px rgba(0,0,0,.12);
+
+    border-top:4px solid #430A18;
 
     transition:.3s;
 }
 
 .card:hover{
     transform:translateY(-10px);
+
+    box-shadow:
+        0 15px 30px rgba(0,0,0,.18);
 }
 
 .card h3{
-    color:#6B1E2E;
+    color:#430A18;
+
     margin-bottom:15px;
+
     font-size:21px;
+}
+
+.card p{
+    color:#444;
 }
 
 
 /* ==========================================
-CONTACTO
-========================================== */
+   CONTACTO
+   ========================================== */
 
 #contacto{
     min-height:500px;
+
     text-align:center;
+
     padding:70px 10%;
 }
 
 #contacto h2{
     text-align:center;
-    color:#6B1E2E;
+
+    color:#430A18;
+
     font-size:32px;
+
     margin-bottom:45px;
 }
 
 
-/* CONTENEDOR DE TARJETAS */
+/* ==========================================
+   CONTENEDOR DE CONTACTOS
+   ========================================== */
 
 .contactos-container{
     display:flex;
+
     justify-content:center;
+
     align-items:center;
+
     gap:40px;
+
     flex-wrap:wrap;
 }
 
 
-/* TARJETA CONTACTO */
+/* ==========================================
+   TARJETAS DE CONTACTO
+   ========================================== */
 
 .contacto-card{
     width:350px;
+
     background:white;
+
     padding:35px;
+
     border-radius:18px;
+
     text-align:center;
 
     box-shadow:
-    0 10px 25px rgba(0,0,0,.12);
+        0 10px 25px rgba(0,0,0,.12);
+
+    border-top:4px solid #430A18;
 
     transition:.3s;
 }
 
 .contacto-card:hover{
     transform:translateY(-8px);
+
+    box-shadow:
+        0 15px 30px rgba(0,0,0,.18);
 }
 
 .contacto-card h3{
-    color:#6B1E2E;
+    color:#430A18;
+
     margin-bottom:15px;
 }
 
 .contacto-card p{
     margin-bottom:15px;
+
     font-size:17px;
 }
 
 
 /* ==========================================
-FOOTER
-========================================== */
+   ENLACES DE CONTACTO
+   ========================================== */
+
+.contacto-card a{
+    color:#430A18;
+
+    font-weight:bold;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.contacto-card a:hover{
+    color:#D8B24C;
+}
+
+
+/* ==========================================
+   FOOTER
+   ========================================== */
 
 footer{
-    background:#4A0E1A;
+    background:#2B0610;
+
     color:white;
+
     text-align:center;
+
     padding:40px 20px;
 }
 
 footer h3{
-    color:#d8b24c;
+    color:#D8B24C;
+
     margin-bottom:15px;
 }
 
 
 /* ==========================================
-WHATSAPP FLOTANTE
-========================================== */
+   WHATSAPP FLOTANTE
+   ========================================== */
 
 .whatsapp{
     position:fixed;
+
     bottom:25px;
     right:25px;
+
     background:#25D366;
+
     color:white;
+
     width:65px;
     height:65px;
+
     border-radius:50%;
+
     display:flex;
+
     align-items:center;
     justify-content:center;
+
     font-size:35px;
+
     text-decoration:none;
 
     box-shadow:
-    0 5px 20px rgba(0,0,0,.3);
+        0 5px 20px rgba(0,0,0,.3);
 
     z-index:2000;
+
+    transition:.3s;
 }
 
 .whatsapp:hover{
@@ -293,13 +413,15 @@ WHATSAPP FLOTANTE
 
 
 /* ==========================================
-CELULARES
-========================================== */
+   CELULARES
+   ========================================== */
 
 @media(max-width:800px){
 
     nav{
         flex-direction:column;
+
+        padding:15px 5%;
     }
 
     .menu{
@@ -308,6 +430,7 @@ CELULARES
 
     .menu a{
         margin:0 8px;
+
         font-size:14px;
     }
 
@@ -333,11 +456,20 @@ CELULARES
 
     .servicios{
         flex-direction:column;
+
         align-items:center;
     }
 
     .card{
         width:100%;
+
+        max-width:400px;
+    }
+
+    .contacto-card{
+        width:100%;
+
+        max-width:400px;
     }
 
     .logo{
